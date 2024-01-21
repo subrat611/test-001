@@ -1,5 +1,3 @@
-"use client";
-
 import { Inter } from "next/font/google";
 import "./globals.css";
 import DefaultTemplate from "@/templates/DefaultTemplate";
@@ -14,9 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <DefaultTemplate>{children}</DefaultTemplate>
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
