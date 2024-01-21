@@ -5,7 +5,7 @@ import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import { useState } from "react";
 
 export default function DefaultTemplate({ children }) {
-  const [isNavShow, setIsNavShow] = useState(false);
+  // const [isNavShow, setIsNavShow] = useState(false);
 
   return (
     <main className="h-screen flex">

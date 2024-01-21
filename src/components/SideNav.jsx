@@ -10,7 +10,7 @@ import { IconBuddyProfileIcon } from "./icon";
 import { Cross2Icon } from "@radix-ui/react-icons";
 
 const SideNav = (props) => {
-  const { isNavShow, setIsNavShow } = props;
+  const { isNavShow = "", setIsNavShow = () => {} } = props;
   const pathname = usePathname();
 
   return (
